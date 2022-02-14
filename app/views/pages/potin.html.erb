@@ -1,0 +1,11 @@
+<div class="container" style="height:80vh">
+    <% @gossips.each do |gossip| %>
+      <% if gossip.id == @id.to_i%>
+        <h3> <%= gossip.title %></h3>
+        <p> <em><%= gossip.content %></em></p>
+        <a href="<%= root_path %>" class="btn btn-primary m-3 rounded-pill">👈 Revenir au menu</a>
+        <a href="auteur/<%= gossip.title%>" class=" btn-auteur btn btn-primary m-3 rounded-pill">Profil de l'auteur</a>
+        <hr>
+      <% end %>
+    <% end %>
+</div>

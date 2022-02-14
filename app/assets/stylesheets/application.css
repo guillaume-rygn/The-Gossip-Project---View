@@ -1,0 +1,126 @@
+
+ @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+ .team4 {
+   font-family: "Montserrat", sans-serif;
+   color: #8d97ad;
+   font-weight: 300;
+ }
+
+ .active {
+  background-color: #8064A2 !important;
+  color:#FFF !important;
+  border-color: #8064A2 !important; 
+}
+.nav-link {
+  color: #8064A2 ;
+}
+
+.nav-link:hover {
+  color: #534771 ;
+}
+ 
+a.btn-auteur{
+  background-color: #FFF !important;
+  color: #8064A2;
+}
+
+a.btn-auteur:hover{
+  background-color: #8064A2 !important;
+  color: #FFF;
+}
+
+ .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #8064A2 ;
+  border-color: #8064A2 !important; 
+}
+ 
+ .team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+   color: #3e4555;
+ }
+ 
+ .team4 .font-weight-medium {
+   font-weight: 500;
+ }
+ 
+ .team4 h5 {
+     line-height: 22px;
+     font-size: 18px;
+ }
+ 
+ .team4 .subtitle {
+     color: #8d97ad;
+     line-height: 24px;
+     font-size: 13px;
+ }
+ 
+ .team4 ul li a {
+   color: #8d97ad;
+   padding-right: 15px;
+   -webkit-transition: 0.1s ease-in;
+   -o-transition: 0.1s ease-in;
+   transition: 0.1s ease-in;
+ }
+ 
+ .team4 ul li a:hover {
+   -webkit-transform: translate3d(0px, -5px, 0px);
+   transform: translate3d(0px, -5px, 0px);
+   color: #316ce8;
+ }
+
+ .bastien{
+  filter: grayscale(100%);
+ }
+
+ .card-home{
+   border-radius:15px;
+   transition: 0.15s ease-in-out;
+ }
+
+ .card-home:hover{
+  box-shadow: 5px 5px 19px 1px rgba(0,0,0,0.36);
+  transform: translateY(-10px);
+ }
+
+
+ /* CONTACT */
+
+
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+.col-md-3{
+  background: #8064A2;
+  color: #FFF;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #F9F9F9;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  margin-top:10px;
+  background: #8064A2;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
